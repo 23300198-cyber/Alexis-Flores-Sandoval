@@ -3,3 +3,8 @@ def sumar(a, b):
 
 if __name__ == "__main__":
     print(f"Resultado de la suma 2 + 3: {sumar(2, 3)}")
+
+
+def multiplicar(a, b):
+    # ERROR INTENCIONAL: suma en lugar de multiplicar
+    return a + b

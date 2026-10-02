@@ -8,3 +8,9 @@ class TestCalculadora(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+
+class TestMultiplicar(unittest.TestCase):
+    def test_multiplicar(self):
+        from app import multiplicar
+        self.assertEqual(multiplicar(2, 3), 6)
